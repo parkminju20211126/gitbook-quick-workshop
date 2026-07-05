@@ -34,11 +34,13 @@ Quick Desktop 앱 실행 → 계정 선택 화면에서 **"다른 계정 추가"
 
 ## 이 워크샵에서 쓰는 데이터
 
-실습용으로 미리 준비된 한국어 샘플 데이터입니다. 참가자 전원이 똑같은 결과를 내도록 통제된 자료이고, 로컬 폴더(OneDrive 마운트)에 들어 있습니다. 실제 본인 데이터가 아니니 마음 편히 써도 됩니다.
+실습용으로 미리 준비된 한국어 샘플 데이터입니다. 참가자 전원이 똑같은 결과를 내도록 통제된 자료이고, 실제 본인 데이터가 아니니 마음 편히 써도 됩니다.
+
+> **📥 다운로드:** [quick-workshop-data.zip](quick-workshop-data.zip)
+>
+> 다운로드 후 압축을 풀고, **Settings → Capabilities → Connectors → Local files** 에 압축 푼 폴더를 추가하세요. 아래 경로의 `./` 는 그 연결된 폴더 기준입니다.
 
 <table><thead><tr><th width="200">파일/폴더</th><th>내용</th><th width="200">어디서 쓰나</th></tr></thead><tbody><tr><td><code>./research-folder/</code></td><td>"리워드 프로그램 도입" 관련 조사 자료 (시장·고객·비용 등)</td><td>STEP 2 (보고서·덱 생성)</td></tr><tr><td><code>./call-transcripts/</code></td><td>영업 콜 녹취록 5개 (한국어). 대표 파일: <code>discovery-acme-corp.txt</code>(한빛테크), <code>discovery-globex.txt</code></td><td>STEP 3 (리드 평가·후속 이메일)</td></tr><tr><td><code>./customer-usage.csv</code></td><td>고객사별 API 사용량 데이터 (고객사·세그먼트·호출수 등)</td><td>STEP 4 (대시보드), STEP 6-2 (Apps)</td></tr></tbody></table>
-
-> **파일이 안 열리면:** **Settings → Capabilities → Connectors → Local files** 에 위 폴더가 추가돼 있는지 확인하세요. 경로의 `./` 는 그 연결된 폴더 기준입니다.
 
 ---
 
