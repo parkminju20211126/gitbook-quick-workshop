@@ -36,7 +36,7 @@ Quick Desktop 앱 실행 → 계정 선택 화면에서 **"다른 계정 추가"
 
 실습용으로 미리 준비된 한국어 샘플 데이터입니다. 참가자 전원이 똑같은 결과를 내도록 통제된 자료이고, 실제 본인 데이터가 아니니 마음 편히 써도 됩니다.
 
-> **📥 다운로드:** [quick-workshop-data.zip](quick-workshop-data.zip)
+> **📥 다운로드:** [quick-workshop-data.zip](https://github.com/parkminju20211126/gitbook-quick-workshop/raw/master/quick-workshop-data.zip)
 >
 > 다운로드 후 압축을 풀고, **Settings → Capabilities → Connectors → Local files** 에 압축 푼 폴더를 추가하세요. 아래 경로의 `./` 는 그 연결된 폴더 기준입니다.
 
