@@ -26,12 +26,14 @@ Quick Desktop 앱 실행 → 계정 선택 화면에서 **"다른 계정 추가"
 
 ---
 
-## 이 워크샵에서 쓰는 데이터
+## 워크샵에서 쓰는 데이터
 
 실습용으로 미리 준비된 Sales 샘플 데이터입니다. 
 > **📥 다운로드:** [quick-workshop-data.zip](https://github.com/parkminju20211126/gitbook-quick-workshop/raw/master/quick-workshop-data.zip)
 >
 > zip을 받아서 원하는 위치에 압축을 풀어주세요. 그런 다음 채팅 입력창 왼쪽 아래의 **`+` 버튼 → Quick knowledge → Choose a folder** 를 눌러 방금 압축을 푼 폴더를 지정하면 됩니다. 이후 실습에 나오는 `./` 경로는 전부 이 폴더 기준이에요.
+
+<figure><img src="images/quick-choose-folder.png" alt="Choose a folder"><figcaption>+ 버튼 → Quick knowledge → Choose a folder</figcaption></figure>
 
 <table><thead><tr><th width="200">파일/폴더</th><th>내용</th><th width="200">어디서 쓰나</th></tr></thead><tbody><tr><td><code>./research-folder/</code></td><td>"리워드 프로그램 도입" 관련 조사 자료 (시장·고객·비용 등)</td><td>STEP 1 (보고서·덱 생성)</td></tr><tr><td><code>./call-transcripts/</code></td><td>영업 콜 녹취록 5개 (한국어). 대표 파일: <code>discovery-acme-corp.txt</code>(한빛테크), <code>discovery-globex.txt</code></td><td>STEP 2 (리드 평가·후속 이메일)</td></tr><tr><td><code>./customer-usage.csv</code></td><td>고객사별 API 사용량 데이터 (고객사·세그먼트·호출수 등)</td><td>STEP 3 (대시보드), STEP 5-2 (Apps)</td></tr></tbody></table>
 
