@@ -68,6 +68,8 @@ branded-report 라는 이름의 Skill을 만들어줘. 이 Skill은 전문적인
 
 → 구성안 나오면 승인 → `.pptx` 생성됨.
 
+<figure><img src="images/branded-deck-sample.png" alt="branded 발표 덱 예시"><figcaption>승인 후 생성된 프레젠테이션 덱 예시</figcaption></figure>
+
 ---
 
 > **다음:** [STEP 2. qualify-lead Skill 만들기 →](step-2-qualify-lead.md)

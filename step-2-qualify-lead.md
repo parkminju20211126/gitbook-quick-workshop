@@ -28,6 +28,10 @@ qualify-lead 라는 이름의 Skill을 만들어줘. 이 Skill은 영업 콜 녹
 ./call-transcripts/discovery-acme-corp.txt 콜 녹취록의 리드를 평가해줘.
 ```
 
+이런 식으로 BANT 항목별 평가와 근거가 정리된 리포트가 나옵니다.
+
+<figure><img src="images/qualify-lead-hanbit.png" alt="한빛테크 BANT 평가 리포트"><figcaption>한빛테크 콜에 대한 리드 평가 리포트</figcaption></figure>
+
 ---
 
 ## ③ (선택) 비교
@@ -35,6 +39,10 @@ qualify-lead 라는 이름의 Skill을 만들어줘. 이 Skill은 영업 콜 녹
 ```
 ./call-transcripts/discovery-globex.txt 콜의 리드도 평가하고, 한빛테크와 비교해줘. 어느 쪽이 더 유망한 기회야?
 ```
+
+두 콜의 리드를 나란히 평가해서 어느 쪽이 더 유망한지 비교해 줍니다.
+
+<figure><img src="images/qualify-lead-comparison.png" alt="Globex vs 한빛테크 비교"><figcaption>Globex(대성정보시스템) 리드 평가 및 한빛테크와의 비교</figcaption></figure>
 
 ---
 
