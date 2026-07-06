@@ -13,4 +13,4 @@
 
 ## 참고
 
-* [막히면 (트러블슈팅)](troubleshooting.md)
+* [트러블슈팅](troubleshooting.md)

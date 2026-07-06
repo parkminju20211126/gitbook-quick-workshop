@@ -47,4 +47,4 @@ Quick Desktop 앱 실행 → 계정 선택 화면에서 **"다른 계정 추가"
 4. [STEP 4. Connection — 외부 도구 연결](step-4-connection.md)
 5. [STEP 5. Quick 차별 기능](step-5-quick-features.md)
 6. [STEP 6. 최종 체크](step-6-checklist.md)
-7. [막히면 (트러블슈팅)](troubleshooting.md)
+7. [트러블슈팅](troubleshooting.md)
