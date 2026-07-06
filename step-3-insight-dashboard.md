@@ -1,6 +1,6 @@
-# STEP 4. 인터랙티브 HTML 대시보드 — insight-dashboard
+# STEP 3. 인터랙티브 HTML 대시보드 — insight-dashboard
 
-> STEP 2가 "정적 보고서"라면, 이건 마우스로 필터/클릭하는 **인터랙티브 대시보드**를 HTML 한 파일로 만듭니다. 브라우저로 바로 열리고 서버가 필요 없습니다.
+> STEP 1이 "정적 보고서"라면, 이건 마우스로 필터/클릭하는 **인터랙티브 대시보드**를 HTML 한 파일로 만듭니다. 브라우저로 바로 열리고 서버가 필요 없습니다.
 
 ---
 
@@ -65,8 +65,8 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 
 ---
 
-> **STEP 6-2의 "Apps"와 차이:** Apps는 Quick 안에서 쓰는 앱, 이건 **HTML 파일로 떨어져서 누구에게나 공유 가능**(이메일 첨부·SharePoint 업로드).
+> **STEP 5-2의 "Apps"와 차이:** Apps는 Quick 안에서 쓰는 앱, 이건 **HTML 파일로 떨어져서 누구에게나 공유 가능**(이메일 첨부·SharePoint 업로드).
 
 ---
 
-> **다음:** [STEP 5. Connection — 외부 도구 연결 →](step-5-connection.md)
+> **다음:** [STEP 4. Connection — 외부 도구 연결 →](step-4-connection.md)

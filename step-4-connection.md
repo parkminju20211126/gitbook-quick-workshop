@@ -1,4 +1,4 @@
-# STEP 5. Connection — 외부 도구 연결
+# STEP 4. Connection — 외부 도구 연결
 
 > Outlook, SharePoint 같은 회사 도구를 Quick과 연결해서 내 캘린더·이메일·문서를 채팅으로 다룹니다.
 
@@ -36,4 +36,4 @@
 
 ---
 
-> **다음:** [STEP 6. Quick 차별 기능 →](step-6-quick-features.md)
+> **다음:** [STEP 5. Quick 차별 기능 →](step-5-quick-features.md)

@@ -1,4 +1,4 @@
-# STEP 2. 첫 Skill 만들기 — branded-report
+# STEP 1. 첫 Skill 만들기 — branded-report
 
 > 임원 보고서 스타일의 HTML을 자동 생성하는 Skill을 만듭니다. 한 번 만들면 "보고서 만들어줘"만 해도 이 Skill이 자동 발동됩니다.
 
@@ -66,4 +66,4 @@ branded-report 라는 이름의 Skill을 만들어줘. 이 Skill은 전문적인
 
 ---
 
-> **다음:** [STEP 3. qualify-lead Skill 만들기 →](step-3-qualify-lead.md)
+> **다음:** [STEP 2. qualify-lead Skill 만들기 →](step-2-qualify-lead.md)
