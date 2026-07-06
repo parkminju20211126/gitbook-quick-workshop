@@ -54,6 +54,10 @@ branded-report 라는 이름의 Skill을 만들어줘. 이 Skill은 전문적인
 ./research-folder/ 폴더의 조사 자료로 임원용 보고서를 만들어줘. 제목은 "리워드 프로그램 결정 — 임원 보고서".
 ```
 
+이런 느낌의 HTML 보고서가 만들어집니다.
+
+<figure><img src="images/branded-report-sample.png" alt="branded-report 결과 예시"><figcaption>branded-report Skill로 생성된 임원 보고서 예시</figcaption></figure>
+
 ---
 
 ## ⑤ (선택) 발표 덱까지
