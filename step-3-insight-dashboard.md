@@ -55,6 +55,8 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 
 → 생성된 `./output/dashboard-YYYY-MM-DD.html` 을 더블클릭하면 브라우저에서 바로 열립니다.
 
+<figure><img src="images/insight-dashboard-sample.png" alt="insight-dashboard 결과 예시"><figcaption>브라우저로 연 대시보드 예시 (KPI 카드 · 상위 고객사 막대 · 세그먼트 도넛 · 필터)</figcaption></figure>
+
 ---
 
 ## ⑤ (선택) 대화로 계속 다듬기

@@ -58,8 +58,6 @@ Quick이 [계정/사람]에 대해 뭘 알고 있어?
 
 ## 5-4. Browser (진짜 웹에서 찾아오기)
 
-> 주로 진행자 시연 파트입니다. 셋업(remote debugging)이 낯설면 시연만 봐도 됩니다. 회사 보안정책으로 막힐 수도 있습니다.
-
 **셋업:**
 
 **Settings → Customization → Browser** → 브라우저 선택(Chrome 등) → **"Use my browser"** 토글 ON → 안내대로 `chrome://inspect/#remote-debugging` 붙여넣고 **Enable remote debugging** → **Test Connection** → "Connected" 확인.
