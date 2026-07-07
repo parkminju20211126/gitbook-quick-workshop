@@ -10,11 +10,13 @@
 
 **1. Quick Desktop 로그인**
 
-Quick Desktop 앱 실행 → 계정 선택 화면에서 **"다른 계정 추가"** → **"Quick 계정 이름"** 에 `amazonbi` 입력 → **다음** → 회사 계정으로 로그인 (이미 amazonbi로 로그인해 뒀으면 계정 선택 화면에서 고르기만 하면 됩니다)
+Quick Desktop 앱을 실행하면 로그인 화면이 뜹니다. **"Internal login"** 버튼을 눌러 회사 계정으로 로그인해 주세요. (외부 계정으로 진행할 경우 아래 **"Continue with"** 옵션 중 하나를 골라도 됩니다.)
 
-<figure><img src="images/quick-login-account-select.png" alt="계정 선택 화면"><figcaption>계정 선택 화면</figcaption></figure>
+<figure><img src="images/quick-login-signin.png" alt="Amazon Quick 로그인 화면"><figcaption>Amazon Quick 로그인 화면</figcaption></figure>
 
-<figure><img src="images/quick-login-amazonbi.png" alt="amazonbi 로그인"><figcaption>amazonbi 로그인</figcaption></figure>
+로그인이 완료되면 아래 화면이 뜹니다. 창을 닫고 Quick Desktop 앱으로 돌아오시면 됩니다.
+
+<figure><img src="images/quick-login-success.png" alt="로그인 완료 화면"><figcaption>로그인이 완료된 상태 — 창을 닫고 Quick으로 돌아오면 됩니다</figcaption></figure>
 
 **2. 어시스턴트 확인**
 
