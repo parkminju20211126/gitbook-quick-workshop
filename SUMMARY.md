@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Quick Advanced Workshop - 참가자용 따라하기](README.md)
+* [Amazon Quick 실전 워크샵](README.md)
 
 ## 실습
 

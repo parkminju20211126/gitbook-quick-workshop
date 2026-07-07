@@ -1,4 +1,6 @@
-# Quick Advanced Workshop
+# Amazon Quick 실전 워크샵
+
+> 채팅으로 만드는 나만의 업무 자동화 도구
 
 이 워크샵은 Amazon Quick의 핵심 기능(Skills, Connection, Scheduled Agent, Apps, Knowledge Graph, Browser)을 실습으로 익히는 과정입니다. 코드를 직접 작성하지 않고 채팅으로 지시하는 방식으로, 재사용 가능한 Skill을 만들고 실제 업무에 바로 적용해봅니다.
 
