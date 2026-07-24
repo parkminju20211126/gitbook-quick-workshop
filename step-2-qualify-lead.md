@@ -4,6 +4,12 @@
 
 ---
 
+# STEP 2. Second Skill — qualify-lead (hands-on) (English)
+
+> Build a Skill yourself that evaluates sales call transcripts with the BANT framework. Then chain it with a follow-up-email Skill to complete the lead-qualification → follow-up-email-draft workflow.
+
+---
+
 ## ① Skill 생성
 
 ```
@@ -22,6 +28,24 @@ qualify-lead 라는 이름의 Skill을 만들어줘. 이 Skill은 영업 콜 녹
 
 ---
 
+## ① Create the Skill (English)
+
+```
+Create a Skill named qualify-lead. This Skill should read sales call transcripts and evaluate leads using the BANT framework (Budget, Authority, Need, Timeline).
+
+For each call, write the following in Korean:
+- An assessment of each of the 4 BANT items with a confidence level (High / Medium / Low), plus supporting quotes from the transcript
+- An overall lead-quality score from 1 to 10
+- Recommended next steps
+- Risk factors or red flags
+
+Auto-apply this Skill whenever I ask to qualify a lead or review a sales call.
+
+Save the Skill so it can be reused.
+```
+
+---
+
 ## ② 테스트
 
 ```
@@ -34,6 +58,18 @@ qualify-lead 라는 이름의 Skill을 만들어줘. 이 Skill은 영업 콜 녹
 
 ---
 
+## ② Test (English)
+
+```
+Qualify the lead from the call transcript at ./call-transcripts/discovery-acme-corp.txt.
+```
+
+You'll get a report like this with BANT-by-item assessments and supporting evidence.
+
+<figure><img src="images/qualify-lead-hanbit.png" alt="Hanbit Tech BANT qualification report"><figcaption>Lead qualification report for the Hanbit Tech call</figcaption></figure>
+
+---
+
 ## ③ (선택) 비교
 
 ```
@@ -43,6 +79,18 @@ qualify-lead 라는 이름의 Skill을 만들어줘. 이 Skill은 영업 콜 녹
 두 콜의 리드를 나란히 평가해서 어느 쪽이 더 유망한지 비교해 줍니다.
 
 <figure><img src="images/qualify-lead-comparison.png" alt="Globex vs 한빛테크 비교"><figcaption>Globex(대성정보시스템) 리드 평가 및 한빛테크와의 비교</figcaption></figure>
+
+---
+
+## ③ (Optional) Compare (English)
+
+```
+Also qualify the lead from the ./call-transcripts/discovery-globex.txt call and compare it with Hanbit Tech. Which is the more promising opportunity?
+```
+
+It qualifies both leads side by side and tells you which is more promising.
+
+<figure><img src="images/qualify-lead-comparison.png" alt="Globex vs Hanbit Tech comparison"><figcaption>Globex (Daesung Information Systems) lead qualification, compared against Hanbit Tech</figcaption></figure>
 
 ---
 
@@ -61,6 +109,24 @@ Skill이 대화 한 줄로 업데이트되고, 앞으로 나올 평가에 "경�
 <figure><img src="images/qualify-lead-competitors.png" alt="경쟁 구도 표"><figcaption>새로 추가된 "경쟁 구도" 섹션 예시</figcaption></figure>
 
 > **Tip:** Skill은 언제든 대화로 수정할 수 있습니다. "이 Skill에 X를 추가해줘"라고 말하면 SKILL 파일이 업데이트됩니다.
+
+---
+
+## ④ (Optional) Improve the Skill (English)
+
+```
+Update the qualify-lead Skill so that it also captures competitors mentioned during the call and what the prospect said about them.
+```
+
+The Skill is updated with a single chat message, and future qualifications automatically include a "Competitive landscape" section.
+
+<figure><img src="images/qualify-lead-improved.png" alt="qualify-lead Skill update result"><figcaption>A competitor-extraction step is added to the Skill</figcaption></figure>
+
+Re-run qualification with the updated Skill and a table like this comes along.
+
+<figure><img src="images/qualify-lead-competitors.png" alt="Competitive landscape table"><figcaption>Example of the newly added "Competitive landscape" section</figcaption></figure>
+
+> **Tip:** You can modify a Skill through chat at any time. Say "add X to this Skill" and the SKILL file is updated.
 
 ---
 
@@ -90,4 +156,32 @@ follow-up-email 이라는 이름의 Skill을 만들어줘. 영업 콜 녹취록�
 
 ---
 
+## ⑤ (Optional) Build the follow-up-email Skill (English)
+
+```
+Create a Skill named follow-up-email. Based on a sales call transcript, it should draft a personalized follow-up email in Korean to send to that customer.
+
+The email should include:
+- A summary of the key points discussed on the call
+- Responses to the needs and concerns the customer expressed
+- The next steps that were agreed on
+- A polite, professional tone
+
+Auto-apply this Skill whenever I say "write a follow-up email" after a lead qualification. Save it so it can be reused.
+```
+
+Try it:
+
+```
+Draft a follow-up email based on the Hanbit Tech call I just qualified.
+```
+
+You get an email draft that naturally weaves in responses to the issues, requests, and needs raised during the call.
+
+<figure><img src="images/follow-up-email-sample.png" alt="follow-up-email result example"><figcaption>Follow-up email draft generated from the Hanbit Tech call</figcaption></figure>
+
+---
+
 > **다음:** [STEP 3. 인터랙티브 HTML 대시보드 →](step-3-insight-dashboard.md)
+>
+> **Next:** [STEP 3. Interactive HTML dashboard →](step-3-insight-dashboard.md)

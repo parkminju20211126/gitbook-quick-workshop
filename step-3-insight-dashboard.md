@@ -4,6 +4,12 @@
 
 ---
 
+# STEP 3. Interactive HTML dashboard — insight-dashboard (English)
+
+> If STEP 1 was a "static report", this one builds an **interactive dashboard** you can filter and click through — packaged into a single HTML file. It opens directly in the browser and needs no server.
+
+---
+
 ## ① Skill 생성
 
 ```
@@ -37,6 +43,39 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 
 ---
 
+## ① Create the Skill (English)
+
+```
+Create a Skill named insight-dashboard. This Skill should take data or analysis results and generate an interactive HTML dashboard as a single file. Please follow these rules exactly.
+
+[Technical approach]
+- Load external libraries only via CDN (Chart.js etc.), and produce a single self-contained HTML file. It should open by double-clicking in a browser — no install and no server required.
+
+[Brand colors]
+- Dark color #232F3E, accent color #FF9900, white background
+
+[Layout]
+1. Top header band: Full-width dark background (#232F3E) with the dashboard title on the left (white, bold) and creation date on the right. A 4px orange (#FF9900) line below the band.
+2. KPI card row: Right below the header, place 3-4 key metric cards. Each card shows a large number and a label.
+3. Chart area: 2-3 charts (bar / donut / line) chosen to fit the data. Charts should be responsive (resize with the window).
+4. Filters: Dropdowns or buttons at the top for segment / period / etc. Selecting them updates charts and tables in real time.
+5. Detail table: A sortable table at the bottom (click header to sort). Header row on dark background (#232F3E) with white text; body rows alternate light gray.
+6. Clean system font, subtle shadows and rounded corners on cards / charts, generous whitespace.
+
+[Body language]
+- Write labels and descriptions in Korean
+
+[Save location]
+- Save to the ./output/ folder. Create the folder if it doesn't exist. Filename format: dashboard-YYYY-MM-DD.html.
+
+[Auto-trigger]
+- Auto-apply this Skill whenever the word "dashboard" (대시보드) is mentioned.
+
+Save the Skill so it can be reused.
+```
+
+---
+
 ## ② 권한 승인
 
 권한 물어보면 → **허용**.
@@ -44,6 +83,16 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 ## ③ 생성 확인
 
 **Agents & skills 패널**에 `insight-dashboard`가 보이면 성공입니다.
+
+---
+
+## ② Approve permissions (English)
+
+If asked for permission → **Allow**.
+
+## ③ Verify creation (English)
+
+If you see `insight-dashboard` in the **Agents & skills panel**, you're set.
 
 ---
 
@@ -59,6 +108,18 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 
 ---
 
+## ④ Try it out (English)
+
+```
+Build an interactive dashboard from the ./customer-usage.csv data. Show API call counts by customer, distribution by segment, and top customers, and let me filter by segment.
+```
+
+→ Double-click the generated `./output/dashboard-YYYY-MM-DD.html` and it opens directly in the browser.
+
+<figure><img src="images/insight-dashboard-sample.png" alt="insight-dashboard result example"><figcaption>Example dashboard opened in a browser (KPI cards · top customers bar · segment donut · filter)</figcaption></figure>
+
+---
+
 ## ⑤ (선택) 대화로 계속 다듬기
 
 ```
@@ -67,8 +128,20 @@ insight-dashboard 라는 이름의 Skill을 만들어줘. 이 Skill은 데이터
 
 ---
 
+## ⑤ (Optional) Keep refining through chat (English)
+
+```
+Add a "monthly trend" line chart to the dashboard you just made, and highlight only the top 5 customers.
+```
+
+---
+
 > **STEP 5-2의 "Apps"와 차이:** Apps는 Quick 안에서 쓰는 앱, 이건 **HTML 파일로 떨어져서 누구에게나 공유 가능**(이메일 첨부·SharePoint 업로드).
+>
+> **Difference vs "Apps" in STEP 5-2:** Apps run inside Quick, while this one **outputs an HTML file you can share with anyone** (email attachment, SharePoint upload).
 
 ---
 
 > **다음:** [STEP 4. Connection — 외부 도구 연결 →](step-4-connection.md)
+>
+> **Next:** [STEP 4. Connection — connect external tools →](step-4-connection.md)

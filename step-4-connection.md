@@ -6,9 +6,23 @@
 
 ---
 
+# STEP 4. Connection — connect external tools (English)
+
+> The tools you connect here become the raw materials for the next STEP. The "morning email summary" agent in STEP 5-1 needs an Outlook connection to run, and lead reports produced by qualify-lead or artifacts from branded-report only complete a real workflow once they're logged and shared through SharePoint.
+
+The more sources you connect, the better Quick understands the context of your work. Start with your communication channels.
+
+---
+
 ## ① 연결 화면 열기
 
 **Settings → Capabilities → Connections** 를 엽니다. 사용 가능한 커넥터 목록이 뜹니다.
+
+---
+
+## ① Open the connections screen (English)
+
+Open **Settings → Capabilities → Connections**. A list of available connectors appears.
 
 ---
 
@@ -25,6 +39,22 @@
 5. 나머지 High / Recommended 커넥터를 시간이 되는 만큼 이어서 연결
 
 각 커넥터마다 회사 계정으로 OAuth 로그인 → 권한 허용을 거치면 됩니다.
+
+---
+
+## ② Connect sources (English)
+
+<table><thead><tr><th width="180">Source</th><th>What Quick learns</th><th width="110">Priority</th></tr></thead><tbody><tr><td><strong>Outlook / Gmail</strong></td><td>Email context, contacts, follow-up threads</td><td>Must</td></tr><tr><td><strong>Calendar</strong></td><td>Upcoming meetings, attendees, prep items</td><td>Must</td></tr><tr><td><strong>Slack</strong></td><td>Team conversations, project context, relationships between people</td><td>High</td></tr><tr><td><strong>Salesforce / AWSentral</strong></td><td>Accounts, opportunities, deal stages, customer data</td><td>High</td></tr><tr><td><strong>Zoom</strong></td><td>Meeting recordings, transcripts, conversation context</td><td>High</td></tr><tr><td><strong>AWS Documentation MCP</strong></td><td>Search official AWS docs directly from Quick chat</td><td>Recommended</td></tr><tr><td><strong>Local Folders</strong></td><td>Documents, presentations, and notes on your computer</td><td>Recommended</td></tr></tbody></table>
+
+**Recommended connection order:**
+
+1. Connect **Outlook (or Gmail)** → approve access
+2. Connect **Calendar**
+3. Connect **Slack** if you can
+4. Add at least one **Local Folder**: **Settings → My Computer → Local Folders → Add**
+5. Continue with the remaining High / Recommended connectors as time allows
+
+For each connector, go through OAuth sign-in with your corporate account → grant permissions.
 
 ---
 
@@ -70,6 +100,48 @@ Amazon Bedrock의 최신 지원 리전과 각 리전별로 사용 가능한 파�
 
 ---
 
+## ③ Verify each connector (English)
+
+Run one prompt per connector to confirm it's wired up. If a permission popup appears, click **Allow**.
+
+**Outlook / Calendar**
+
+```
+Summarize my calendar for this week. Flag any meetings that need prep separately, and include the recent email threads related to each meeting.
+```
+
+**Slack**
+
+```
+Find the 3 most active channels I'm in this week and summarize the main discussions in each.
+```
+
+**Salesforce / AWSentral**
+
+```
+List the opportunities I own that are set to close this quarter, organized by deal stage.
+```
+
+**Zoom**
+
+```
+Pull out the issues and follow-up actions that came up repeatedly across my Zoom meeting transcripts from last week.
+```
+
+**AWS Documentation MCP**
+
+```
+Give me a table of the latest supported regions for Amazon Bedrock and which foundation models are available in each.
+```
+
+**Local Folders**
+
+```
+Find the 3 most recent documents in the folder I just added and summarize each in one paragraph.
+```
+
+---
+
 ## ④ (선택) 조합해보기
 
 여러 소스를 한 번에 쓰면 진짜 힘이 나옵니다.
@@ -86,6 +158,22 @@ Amazon Bedrock의 최신 지원 리전과 각 리전별로 사용 가능한 파�
 
 ---
 
+## ④ (Optional) Combine sources (English)
+
+The real power kicks in once you use multiple sources at once.
+
+```
+Find the customer meetings in my calendar this week, and for each attendee gather context from recent emails, Slack conversations, and Salesforce account notes — then compile a one-page prep briefing.
+```
+
+```
+Take the qualify-lead result on the ./call-transcripts/discovery-acme-corp.txt call and save it to a "Lead Reports" subfolder in my local folder as "lead-qualification-hanbit-YYYY-MM-DD.md".
+```
+
+> **Tip:** The more connectors you have, the less you need to say "use tool X" in your prompt — Quick figures out which connectors to use on its own.
+
+---
+
 ## 문제가 생기면
 
 - **인증 실패**: 회사 계정으로 다시 로그인. OAuth 토큰은 90일마다 만료됩니다.
@@ -94,4 +182,14 @@ Amazon Bedrock의 최신 지원 리전과 각 리전별로 사용 가능한 파�
 
 ---
 
+## If something goes wrong (English)
+
+- **Auth failure**: Sign in again with your corporate account. OAuth tokens expire every 90 days.
+- **Connector missing from the list**: Ask your org admin to enable it.
+- **No data coming through**: Recheck that connector's permission scopes in Settings.
+
+---
+
 > **다음:** [STEP 5. Quick 차별 기능 →](step-5-quick-features.md)
+>
+> **Next:** [STEP 5. Quick's distinctive features →](step-5-quick-features.md)
