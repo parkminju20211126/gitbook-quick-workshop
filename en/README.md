@@ -1,7 +1,5 @@
 # Amazon Quick Hands-on Workshop
 
-> 🌐 [한국어 버전 →](../README.md)
-
 > Build your own work automation tools through chat.
 
 This workshop is a hands-on program for learning Amazon Quick's core features (Skills, Connection, Scheduled Agent, Apps, Knowledge Graph, Browser). Instead of writing code yourself, you'll give instructions through chat, build reusable Skills, and apply them directly to real work.
