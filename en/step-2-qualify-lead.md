@@ -30,19 +30,19 @@ Qualify the lead from the call transcript at ./call-transcripts/discovery-acme-c
 
 You'll get a report like this with BANT-by-item assessments and supporting evidence.
 
-<figure><img src="../images/qualify-lead-hanbit.png" alt="Hanbit Tech BANT qualification report"><figcaption>Lead qualification report for the Hanbit Tech call</figcaption></figure>
+<figure><img src="../images/qualify-lead-hanbit.png" alt="Acme Corp BANT qualification report"><figcaption>Lead qualification report for the Acme Corp call</figcaption></figure>
 
 ---
 
 ## ③ (Optional) Compare
 
 ```
-Also qualify the lead from the ./call-transcripts/discovery-globex.txt call and compare it with Hanbit Tech. Which is the more promising opportunity?
+Also qualify the lead from the ./call-transcripts/discovery-globex.txt call and compare it with Acme Corp. Which is the more promising opportunity?
 ```
 
 It qualifies both leads side by side and tells you which is more promising.
 
-<figure><img src="../images/qualify-lead-comparison.png" alt="Globex vs Hanbit Tech comparison"><figcaption>Globex (Daesung Information Systems) lead qualification, compared against Hanbit Tech</figcaption></figure>
+<figure><img src="../images/qualify-lead-comparison.png" alt="Globex vs Acme Corp comparison"><figcaption>Globex Corp lead qualification, compared against Acme Corp</figcaption></figure>
 
 ---
 
@@ -81,12 +81,12 @@ Auto-apply this Skill whenever I say "write a follow-up email" after a lead qual
 Try it:
 
 ```
-Draft a follow-up email based on the Hanbit Tech call I just qualified.
+Draft a follow-up email based on the Acme Corp call I just qualified.
 ```
 
 You get an email draft that naturally weaves in responses to the issues, requests, and needs raised during the call.
 
-<figure><img src="../images/follow-up-email-sample.png" alt="follow-up-email result example"><figcaption>Follow-up email draft generated from the Hanbit Tech call</figcaption></figure>
+<figure><img src="../images/follow-up-email-sample.png" alt="follow-up-email result example"><figcaption>Follow-up email draft generated from the Acme Corp call</figcaption></figure>
 
 ---
 

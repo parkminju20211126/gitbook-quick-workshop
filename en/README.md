@@ -32,14 +32,14 @@ Among the three chat modes — Fast / Balanced / Smart — start with **Smart** 
 
 ## Workshop data
 
-Sales sample data prepared for the hands-on labs.
-> **📥 Download:** [quick-workshop-data.zip](https://github.com/parkminju20211126/gitbook-quick-workshop/raw/master/quick-workshop-data.zip)
+Sales sample data prepared for the hands-on labs (English version).
+> **📥 Download:** [quick-workshop-data-en.zip](https://github.com/parkminju20211126/gitbook-quick-workshop/raw/master/quick-workshop-data-en.zip)
 >
 > Grab the zip and extract it wherever you like. Then click the **`+` button at the bottom-left of the chat input → Quick knowledge → Choose a folder** and point it at the folder you just extracted. From here on, every `./` path in the labs is relative to that folder.
 
 <figure><img src="../images/quick-choose-folder.png" alt="Choose a folder"><figcaption>+ button → Quick knowledge → Choose a folder</figcaption></figure>
 
-<table><thead><tr><th width="200">File / Folder</th><th>Contents</th><th width="200">Used in</th></tr></thead><tbody><tr><td><code>./research-folder/</code></td><td>Research materials on "launching a rewards program" (market, customers, cost, etc.)</td><td>STEP 1 (report / deck generation)</td></tr><tr><td><code>./call-transcripts/</code></td><td>Five sales call transcripts (Korean). Featured files: <code>discovery-acme-corp.txt</code> (Hanbit Tech), <code>discovery-globex.txt</code></td><td>STEP 2 (lead qualification / follow-up email)</td></tr><tr><td><code>./customer-usage.csv</code></td><td>API usage data by customer (customer, segment, call count, etc.)</td><td>STEP 3 (dashboard), STEP 5-2 (Apps)</td></tr></tbody></table>
+<table><thead><tr><th width="200">File / Folder</th><th>Contents</th><th width="200">Used in</th></tr></thead><tbody><tr><td><code>./research-folder/</code></td><td>Research materials on "launching a rewards program" (market, customers, cost, etc.)</td><td>STEP 1 (report / deck generation)</td></tr><tr><td><code>./call-transcripts/</code></td><td>Five sales call transcripts. Featured files: <code>discovery-acme-corp.txt</code> (Acme Corp), <code>discovery-globex.txt</code> (Globex Corp)</td><td>STEP 2 (lead qualification / follow-up email)</td></tr><tr><td><code>./customer-usage.csv</code></td><td>API usage data by customer (customer, segment, call count, etc.)</td><td>STEP 3 (dashboard), STEP 5-2 (Apps)</td></tr></tbody></table>
 
 ---
 
