@@ -14,7 +14,7 @@
 
 ## ② 소스 연결하기
 
-<table><thead><tr><th width="180">소스</th><th>Quick이 학습하는 것</th><th width="110">우선순위</th></tr></thead><tbody><tr><td><strong>Outlook / Gmail</strong></td><td>이메일 컨텍스트, 연락처, 후속 스레드</td><td>Must</td></tr><tr><td><strong>Calendar</strong></td><td>예정된 미팅, 참석자, 준비 사항</td><td>Must</td></tr><tr><td><strong>Slack</strong></td><td>팀 대화, 프로젝트 컨텍스트, 사람 간 관계</td><td>High</td></tr><tr><td><strong>Salesforce / AWSentral</strong></td><td>계정·오퍼튜니티·딜 단계·고객 데이터</td><td>High</td></tr><tr><td><strong>Zoom</strong></td><td>미팅 녹화·트랜스크립트·대화 맥락</td><td>High</td></tr><tr><td><strong>AWS Documentation MCP</strong></td><td>Quick 대화에서 AWS 공식 문서 직접 검색</td><td>Recommended</td></tr><tr><td><strong>Local Folders</strong></td><td>내 컴퓨터의 문서·프레젠테이션·노트</td><td>Recommended</td></tr></tbody></table>
+<table><thead><tr><th width="180">소스</th><th>Quick이 학습하는 것</th><th width="110">우선순위</th></tr></thead><tbody><tr><td><strong>Outlook / Gmail</strong></td><td>이메일 컨텍스트, 연락처, 후속 스레드</td><td>Must</td></tr><tr><td><strong>Calendar</strong></td><td>예정된 미팅, 참석자, 준비 사항</td><td>Must</td></tr><tr><td><strong>Teams / Slack</strong></td><td>팀 대화, 프로젝트 컨텍스트, 사람 간 관계</td><td>High</td></tr><tr><td><strong>SharePoint / OneDrive</strong></td><td>회사 문서 저장소·정책·회의록 아카이브</td><td>High</td></tr><tr><td><strong>Salesforce / AWSentral</strong></td><td>계정·오퍼튜니티·딜 단계·고객 데이터</td><td>High</td></tr><tr><td><strong>Zoom</strong></td><td>미팅 녹화·트랜스크립트·대화 맥락</td><td>High</td></tr><tr><td><strong>AWS Documentation MCP</strong></td><td>Quick 대화에서 AWS 공식 문서 직접 검색</td><td>Recommended</td></tr><tr><td><strong>Local Folders</strong></td><td>내 컴퓨터의 문서·프레젠테이션·노트</td><td>Recommended</td></tr></tbody></table>
 
 **연결 순서 (권장):**
 
@@ -38,10 +38,16 @@
 이번 주 내 캘린더 일정 요약해줘. 준비가 필요한 미팅은 별도로 표시하고, 각 미팅과 관련된 최근 이메일 스레드도 함께 정리해줘.
 ```
 
-**Slack**
+**Teams / Slack**
 
 ```
 내가 속한 채널 중에서 이번 주 활발했던 채널 3개 찾아서, 각 채널의 주요 논의를 요약해줘.
+```
+
+**SharePoint / OneDrive**
+
+```
+회사 SharePoint에서 "리워드 프로그램" 관련 최근 문서 5개를 찾아서 각각 한 문단으로 요약해줘. 원문 링크도 함께 알려줘.
 ```
 
 **Salesforce / AWSentral**

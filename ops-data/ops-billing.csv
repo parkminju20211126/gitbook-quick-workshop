@@ -1,0 +1,19 @@
+Month,Service,Cost_USD,Usage_Quantity,Usage_Unit
+2026-06,Amazon EC2,4200.00,2880,Instance-Hours
+2026-06,Amazon RDS,1800.00,1440,Instance-Hours
+2026-06,Amazon S3,620.00,18500,GB-Month
+2026-06,Amazon CloudFront,340.00,42000,GB-Transfer
+2026-06,AWS Lambda,210.00,15200000,Requests
+2026-06,Amazon ElastiCache,480.00,720,Node-Hours
+2026-06,Data Transfer,390.00,11800,GB
+2026-06,Amazon CloudWatch,130.00,320,Metrics
+2026-06,Others,280.00,0,Mixed
+2026-07,Amazon EC2,4850.00,3240,Instance-Hours
+2026-07,Amazon RDS,1920.00,1440,Instance-Hours
+2026-07,Amazon S3,680.00,20100,GB-Month
+2026-07,Amazon CloudFront,520.00,64000,GB-Transfer
+2026-07,AWS Lambda,245.00,18600000,Requests
+2026-07,Amazon ElastiCache,480.00,720,Node-Hours
+2026-07,Data Transfer,610.00,18900,GB
+2026-07,Amazon CloudWatch,155.00,380,Metrics
+2026-07,Others,310.00,0,Mixed

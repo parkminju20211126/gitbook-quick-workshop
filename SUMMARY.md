@@ -9,7 +9,8 @@
 * [STEP 3. 인터랙티브 HTML 대시보드 — insight-dashboard](step-3-insight-dashboard.md)
 * [STEP 4. Connection — 외부 도구 연결](step-4-connection.md)
 * [STEP 5. Quick 차별 기능](step-5-quick-features.md)
-* [STEP 6. 최종 체크](step-6-checklist.md)
+* [STEP 6. 운영보고서 자동 생성 — ops-report](step-7-ops-report.md)
+* [STEP 7. 최종 체크](step-6-checklist.md)
 
 ## 참고
 

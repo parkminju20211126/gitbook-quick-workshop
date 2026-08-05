@@ -1,0 +1,16 @@
+Resource_Type,Identifier,Region,Configuration,Environment,Status
+EC2,i-0a1b2c3d4e5f6a7b8,ap-northeast-1,m6i.xlarge,prod,running
+EC2,i-0b2c3d4e5f6a7b8c9,ap-northeast-1,m6i.xlarge,prod,running
+EC2,i-0c3d4e5f6a7b8c9d0,ap-northeast-1,m6i.large,prod,running
+EC2,i-0d4e5f6a7b8c9d0e1,ap-northeast-1,t3.medium,staging,running
+EC2,i-0e5f6a7b8c9d0e1f2,ap-northeast-1,t3.small,dev,stopped
+RDS,cloudmate-prod-db,ap-northeast-1,db.r6g.xlarge Multi-AZ,prod,available
+RDS,cloudmate-staging-db,ap-northeast-1,db.t3.medium Single-AZ,staging,available
+ElastiCache,cloudmate-redis-prod,ap-northeast-1,cache.r6g.large 2 nodes,prod,available
+S3,cloudmate-app-assets,ap-northeast-1,Standard,prod,active
+S3,cloudmate-backups,ap-northeast-1,Standard-IA,prod,active
+CloudFront,E1A2B3C4D5E6F7,global,Web distribution,prod,deployed
+ALB,cloudmate-prod-alb,ap-northeast-1,Application LB 3 AZ,prod,active
+Lambda,cloudmate-image-processor,ap-northeast-1,1024MB Python 3.13,prod,active
+Lambda,cloudmate-notification,ap-northeast-1,512MB Node.js 20,prod,active
+ElasticIP,eipalloc-0f1e2d3c4b5a6,ap-northeast-1,Unattached,prod,unused
