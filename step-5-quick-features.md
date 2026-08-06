@@ -46,17 +46,19 @@ Slack에서 내가 속한 채널에 "긴급" 또는 "blocker" 또는 "장애"라
 
 ## 5-2. Apps (대시보드)
 
-Quick 안에서 실행되는 인터랙티브 웹 앱을 코드 없이 채팅으로 만듭니다. STEP 3의 HTML 대시보드가 "파일로 떨어져 공유하는 정적 결과물"이라면, **Quick Apps는 Quick 내부에서 계속 열어 쓰는 살아있는 도구**입니다.
+Quick 안에서 실행되는 인터랙티브 앱을 코드 없이 채팅으로 만듭니다. STEP 3의 HTML 대시보드와 Quick Apps는 둘 다 인터랙티브지만, **어디서 실행되고 어떻게 공유되느냐**가 다릅니다.
 
-**같은 데이터, 세 가지 결과물**
+**STEP 3 HTML 대시보드 vs Quick Apps**
 
-<table><thead><tr><th width="220">방식</th><th>결과물</th><th>상호작용</th><th>재사용 / 공유</th></tr></thead><tbody>
-<tr><td>채팅에 CSV 넣고 질문</td><td>답변, 차트 하나</td><td>매번 다시 질문</td><td>대화로 흩어짐</td></tr>
-<tr><td>STEP 3 HTML 대시보드</td><td>정적 HTML 파일</td><td>없음 (보기 전용)</td><td>파일 전달 (이메일, SharePoint)</td></tr>
-<tr><td>Quick Apps</td><td>필터·입력·차트가 있는 앱</td><td>필터 클릭, 값 입력, 드릴다운</td><td>Publish, 버전 관리, 링크 공유</td></tr>
+<table><thead><tr><th width="220">방식</th><th>결과물</th><th>실행 위치</th><th>공유 방식</th></tr></thead><tbody>
+<tr><td>STEP 3 HTML 대시보드</td><td>인터랙티브 HTML 파일</td><td>브라우저 (서버 불필요)</td><td>파일 전달 (누구나)</td></tr>
+<tr><td>Quick Apps</td><td>인터랙티브 앱</td><td>Quick 내부</td><td>Publish / 링크 (Quick 사용자)</td></tr>
 </tbody></table>
 
-핵심은 **"인터랙티브함"** 입니다. 같은 `customer-usage.csv` 라도 App으로 만들면 요약 카드, 월별 추이, Top 고객사, 세그먼트 분포가 한 화면에 조립되고 조작 가능한 대시보드가 됩니다.
+- **STEP 3**: 파일로 떨어져 Quick 없이도 누구에게나 공유
+- **STEP 5-2**: Quick 안에서 계속 수정·확장·배포하는 도구
+
+같은 `customer-usage.csv` 라도 Quick Apps로 만들면 요약 카드, 월별 추이, Top 고객사, 세그먼트 분포가 한 화면에 조립되고, "Ask Apps to make changes"로 계속 진화시킬 수 있습니다.
 
 ### 기본 앱 만들기
 
