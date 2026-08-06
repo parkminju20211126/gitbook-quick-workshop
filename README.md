@@ -57,7 +57,6 @@ Quick 계정을 새로 만들고 Desktop 앱을 설치하는 순서로 진행합
 1. Amazon Quick Desktop을 실행하면 로그인 화면이 뜹니다
 2. **Sign In** 클릭 → 브라우저 창에서 ①에서 만든 Quick 계정으로 로그인
 3. 앱에 최초 설정 화면이 뜨고, 완료되면 홈 화면으로 이동합니다
-4. Quick Desktop이 바로 도구를 연결하도록 안내합니다. 지금 연결해도 되고, 건너뛴 뒤 STEP 4에서 연결해도 됩니다.
 
 <figure><img src="images/signin-screen.png" alt="Quick Desktop 로그인 화면"><figcaption>Quick Desktop 로그인 화면 — Sign In 클릭</figcaption></figure>
 
