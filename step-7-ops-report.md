@@ -67,6 +67,8 @@
 
 왼쪽 **Agents & skills 패널**에 `ops-report`가 나타나면 성공입니다.
 
+<figure><img src="images/ops-report-sample.png" alt="ops-report 결과 예시"><figcaption>ops-report Skill로 생성된 운영보고서 상단 예시 (Executive Summary + 리소스 현황)</figcaption></figure>
+
 ***
 
 ## ④ 바로 써보기
@@ -84,8 +86,6 @@
 - CloudFront / Data Transfer 증가가 강조되는지
 - 7/16 Lambda 오류 급증과 결제 API 장애(INC-2451)가 특이사항에 나오는지
 - 미사용 Elastic IP 등 Trusted Advisor 경고가 조치사항에 포함되는지
-
-<figure><img src="images/step7-report-sample.png" alt="운영보고서 예시"><figcaption>생성된 운영보고서 예시</figcaption></figure>
 
 ***
 
