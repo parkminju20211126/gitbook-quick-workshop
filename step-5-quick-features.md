@@ -46,14 +46,14 @@ Slack에서 내가 속한 채널에 "긴급" 또는 "blocker" 또는 "장애"라
 
 ## 5-2. Apps (대시보드)
 
-Quick 안에서 실행되는 인터랙티브 웹 앱을 코드 없이 채팅으로 만듭니다. STEP 3의 HTML 대시보드가 "파일로 떨어져 공유하는 정적 결과물"이라면, **Quick App은 Quick 내부에서 계속 열어 쓰는 살아있는 도구**입니다.
+Quick 안에서 실행되는 인터랙티브 웹 앱을 코드 없이 채팅으로 만듭니다. STEP 3의 HTML 대시보드가 "파일로 떨어져 공유하는 정적 결과물"이라면, **Quick Apps는 Quick 내부에서 계속 열어 쓰는 살아있는 도구**입니다.
 
 **같은 데이터, 세 가지 결과물**
 
 <table><thead><tr><th width="220">방식</th><th>결과물</th><th>상호작용</th><th>재사용 / 공유</th></tr></thead><tbody>
 <tr><td>채팅에 CSV 넣고 질문</td><td>답변, 차트 하나</td><td>매번 다시 질문</td><td>대화로 흩어짐</td></tr>
 <tr><td>STEP 3 HTML 대시보드</td><td>정적 HTML 파일</td><td>없음 (보기 전용)</td><td>파일 전달 (이메일, SharePoint)</td></tr>
-<tr><td>Quick App (이 단계)</td><td>필터·입력·차트가 있는 앱</td><td>필터 클릭, 값 입력, 드릴다운</td><td>Publish, 버전 관리, 링크 공유</td></tr>
+<tr><td>Quick Apps</td><td>필터·입력·차트가 있는 앱</td><td>필터 클릭, 값 입력, 드릴다운</td><td>Publish, 버전 관리, 링크 공유</td></tr>
 </tbody></table>
 
 핵심은 **"인터랙티브함"** 입니다. 같은 `customer-usage.csv` 라도 App으로 만들면 요약 카드, 월별 추이, Top 고객사, 세그먼트 분포가 한 화면에 조립되고 조작 가능한 대시보드가 됩니다.
@@ -103,7 +103,7 @@ Top 고객사 막대를 클릭하면 그 고객사의 월별 상세가 아래에
 
 <figure><img src="images/apps-publish-share.png" alt="Apps Publish 버튼"><figcaption>Publish 버튼 — 현재 버전을 공유 링크로 방문자에게 공개, Share로 접근 권한 관리</figcaption></figure>
 
-> **정리:** Quick App은 채팅 한 줄로 인터랙티브 도구를 만들고, 수정하고, 공유하는 경험을 줍니다. STEP 3(공유용 정적 파일)와 함께 쓰면 "같은 데이터로 상황에 맞는 결과물을 골라 만든다"는 Quick의 강점을 완성할 수 있습니다.
+> **정리:** Quick Apps는 채팅 한 줄로 인터랙티브 도구를 만들고, 수정하고, 공유하는 경험을 줍니다. STEP 3(공유용 정적 파일)와 함께 쓰면 "같은 데이터로 상황에 맞는 결과물을 골라 만든다"는 Quick의 강점을 완성할 수 있습니다.
 
 ---
 
