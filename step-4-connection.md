@@ -14,7 +14,7 @@
 
 ## ② 소스 연결하기
 
-<table><thead><tr><th width="180">소스</th><th>Quick이 학습하는 것</th><th width="110">우선순위</th></tr></thead><tbody><tr><td><strong>Outlook / Gmail</strong></td><td>이메일 컨텍스트, 연락처, 후속 스레드</td><td>Must</td></tr><tr><td><strong>Calendar</strong></td><td>예정된 미팅, 참석자, 준비 사항</td><td>Must</td></tr><tr><td><strong>Teams / Slack</strong></td><td>팀 대화, 프로젝트 컨텍스트, 사람 간 관계</td><td>High</td></tr><tr><td><strong>SharePoint / OneDrive</strong></td><td>회사 문서 저장소·정책·회의록 아카이브</td><td>High</td></tr><tr><td><strong>Salesforce / AWSentral</strong></td><td>계정·오퍼튜니티·딜 단계·고객 데이터</td><td>High</td></tr><tr><td><strong>Zoom</strong></td><td>미팅 녹화·트랜스크립트·대화 맥락</td><td>High</td></tr><tr><td><strong>AWS Documentation MCP</strong></td><td>Quick 대화에서 AWS 공식 문서 직접 검색</td><td>Recommended</td></tr><tr><td><strong>Local Folders</strong></td><td>내 컴퓨터의 문서·프레젠테이션·노트</td><td>Recommended</td></tr></tbody></table>
+<table><thead><tr><th width="180">소스</th><th>Quick이 학습하는 것</th><th width="110">우선순위</th></tr></thead><tbody><tr><td><strong>Outlook / Gmail</strong></td><td>이메일 컨텍스트, 연락처, 후속 스레드</td><td>Must</td></tr><tr><td><strong>Calendar</strong></td><td>예정된 미팅, 참석자, 준비 사항</td><td>Must</td></tr><tr><td><strong>Teams / Slack</strong></td><td>팀 대화, 프로젝트 컨텍스트, 사람 간 관계</td><td>High</td></tr><tr><td><strong>SharePoint / OneDrive</strong></td><td>회사 문서 저장소·정책·회의록 아카이브</td><td>High</td></tr><tr><td><strong>Salesforce / AWSentral</strong></td><td>계정·오퍼튜니티·딜 단계·고객 데이터</td><td>High</td></tr><tr><td><strong>Zoom</strong></td><td>미팅 녹화·트랜스크립트·대화 맥락</td><td>High</td></tr><tr><td><strong>Local Folders</strong></td><td>내 컴퓨터의 문서·프레젠테이션·노트</td><td>Recommended</td></tr></tbody></table>
 
 **연결 순서 (권장):**
 
@@ -25,6 +25,43 @@
 5. 나머지 High / Recommended 커넥터를 시간이 되는 만큼 이어서 연결
 
 각 커넥터마다 회사 계정으로 OAuth 로그인 → 권한 허용을 거치면 됩니다.
+
+---
+
+## ②-2. MCP 서버 추가 (선택) — 예시: AWS Documentation
+
+MCP(Model Context Protocol) 서버는 위 OAuth 커넥터와 달리 **로컬에서 실행되는 어댑터**입니다. Quick을 외부 시스템·데이터 소스와 직접 연결할 때 사용합니다. 여기서는 예시로 **AWS Documentation MCP**를 붙여봅니다 — 설정을 완료하면 모든 AWS 서비스에 대해 공식 문서 기반의 답변을 얻을 수 있습니다.
+
+**사전 요구 사항**
+
+- Python 3.10 이상 설치
+- `uv` 패키지 관리자 설치 (설치되어 있지 않다면 `pip install uv` 실행)
+
+**설치 단계**
+
+1. **Settings → Capabilities → MCP** 를 엽니다
+2. **Add MCP Server** 클릭
+3. 다음을 입력합니다:
+
+| 필드 | 값 |
+|---|---|
+| Name | `AWS Documentation` |
+| Type | `Local` |
+| Command | `uvx` |
+| Arguments | `awslabs.aws-documentation-mcp-server@latest` |
+
+4. **Environment Variables** 아래에 다음을 추가합니다:
+
+| 변수 | 값 |
+|---|---|
+| `FASTMCP_LOG_LEVEL` | `ERROR` |
+| `AWS_DOCUMENTATION_PARTITION` | `aws` |
+
+5. **Save** 클릭
+
+> **AWS 자격 증명은 필요하지 않습니다.** 이 MCP 서버는 공개된 AWS 문서를 검색하는 어댑터입니다.
+
+연결이 완료되면 아래 ③의 **AWS Documentation MCP** 프롬프트로 동작을 확인하세요.
 
 ---
 
