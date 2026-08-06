@@ -10,13 +10,58 @@
 
 **1. Quick Desktop 로그인**
 
-Quick Desktop 앱을 실행하면 로그인 화면이 뜹니다. **"Internal login"** 버튼을 눌러 회사 계정으로 로그인해 주세요. (외부 계정으로 진행할 경우 아래 **"Continue with"** 옵션 중 하나를 골라도 됩니다.)
+Amazon 임직원과 외부 사용자가 경로가 다릅니다. 본인 상황에 맞는 섹션만 따라 하시면 됩니다.
 
-<figure><img src="images/quick-login-signin.png" alt="Amazon Quick 로그인 화면"><figcaption>Amazon Quick 로그인 화면</figcaption></figure>
+<details>
+
+<summary><strong>▶ Amazon 임직원인 경우</strong></summary>
+
+Quick Desktop 앱을 실행하면 로그인 화면이 뜹니다. **"Internal login"** 버튼을 눌러 회사 계정으로 로그인해 주세요.
+
+<figure><img src="images/quick-login-signin.png" alt="Amazon Quick 로그인 화면"><figcaption>Amazon Quick 로그인 화면 — Internal login 사용</figcaption></figure>
 
 로그인이 완료되면 아래 화면이 뜹니다. 창을 닫고 Quick Desktop 앱으로 돌아오시면 됩니다.
 
 <figure><img src="images/quick-login-success.png" alt="로그인 완료 화면"><figcaption>로그인이 완료된 상태 — 창을 닫고 Quick으로 돌아오면 됩니다</figcaption></figure>
+
+</details>
+
+<details>
+
+<summary><strong>▶ 외부 사용자인 경우 (Amazon 계정 없음)</strong></summary>
+
+Quick 계정을 새로 만들고 Desktop 앱을 설치하는 순서로 진행합니다. 신용카드도, AWS 계정도 필요 없어요. (첫 가입 사용자에게는 자동으로 30일 Quick Plus + Desktop 액세스가 제공됩니다.)
+
+**① Quick 계정 생성**
+
+1. 브라우저에서 [aws.amazon.com/quick](https://aws.amazon.com/quick) 로 이동
+2. **Sign Up** (또는 **"Try Quick for Free"**) 클릭
+3. 로그인 방법 선택: 이메일 / Google / Apple / GitHub / Amazon 계정 중 하나
+4. 안내가 나오면 이메일 인증까지 완료
+
+<figure><img src="images/signup-page.png" alt="Amazon Quick 가입 페이지"><figcaption>Amazon Quick 가입 페이지 — 원하는 로그인 방법 선택</figcaption></figure>
+
+**② Quick Desktop 설치**
+
+1. [aws.amazon.com/quick/desktop](https://aws.amazon.com/quick/desktop) 으로 이동
+2. 사용 중인 OS(macOS 또는 Windows)에 맞는 **Download** 클릭
+3. 설치:
+   - **Mac:** `.dmg` 파일을 열고 Amazon Quick을 `Applications` 폴더로 드래그 → 실행
+   - **Windows:** `.exe` 설치 프로그램 실행 후 안내대로 진행 → 시작 메뉴에서 실행
+4. macOS에서 "인터넷에서 다운로드한 앱을 열까요?" 확인이 뜨면 **Open** 클릭
+
+<figure><img src="images/download-page.png" alt="Amazon Quick Desktop 다운로드 페이지"><figcaption>OS에 맞는 Download 버튼 클릭</figcaption></figure>
+
+**③ 로그인**
+
+1. Amazon Quick Desktop을 실행하면 로그인 화면이 뜹니다
+2. **Sign In** 클릭 → 브라우저 창에서 ①에서 만든 Quick 계정으로 로그인
+3. 앱에 최초 설정 화면이 뜨고, 완료되면 홈 화면으로 이동합니다
+4. Quick Desktop이 바로 도구를 연결하도록 안내합니다. 지금 연결해도 되고, 건너뛴 뒤 STEP 4에서 연결해도 됩니다.
+
+<figure><img src="images/signin-screen.png" alt="Quick Desktop 로그인 화면"><figcaption>Quick Desktop 로그인 화면 — Sign In 클릭</figcaption></figure>
+
+</details>
 
 **2. 어시스턴트 확인**
 
