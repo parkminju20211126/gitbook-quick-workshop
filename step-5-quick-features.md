@@ -95,6 +95,8 @@ Top 고객사 막대를 클릭하면 그 고객사의 월별 상세가 아래에
 이탈 위험 고객사 Top 5 카드를 상단에 추가해줘.
 ```
 
+<figure><img src="images/apps-churn-risk.png" alt="이탈 위험 고객사 Top 카드"><figcaption>전월 대비 20% 이상 급감한 고객사를 자동으로 뽑아 상단에 하이라이트</figcaption></figure>
+
 ### Publish 및 공유
 
 앱 상단의 **Publish · 공유 아이콘 · Version 관리** 로 "만든 것을 실제로 배포"하는 단계까지 완결합니다.
