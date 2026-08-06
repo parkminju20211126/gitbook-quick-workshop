@@ -30,7 +30,7 @@ Quick Desktop 앱을 실행하면 로그인 화면이 뜹니다. **"Internal log
 
 <summary><strong>▶ 외부 사용자인 경우 (Amazon 계정 없음)</strong></summary>
 
-Quick 계정을 새로 만들고 Desktop 앱을 설치하는 순서로 진행합니다. 신용카드도, AWS 계정도 필요 없어요. (첫 가입 사용자에게는 자동으로 30일 Quick Plus + Desktop 액세스가 제공됩니다.)
+Quick 계정을 새로 만들고 Desktop 앱을 설치하는 순서로 진행합니다. (첫 가입 사용자에게는 자동으로 30일 Quick Plus + Desktop 액세스가 제공됩니다.)
 
 **① Quick 계정 생성**
 
