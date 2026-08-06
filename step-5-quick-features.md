@@ -86,6 +86,8 @@ Top 고객사 막대를 클릭하면 그 고객사의 월별 상세가 아래에
 성장률 슬라이더를 움직이면 다음 3개월 예측치가 차트에 반영되게 해줘.
 ```
 
+<figure><img src="images/apps-whatif-widget.png" alt="Apps What-if 위젯"><figcaption>목표 달성률 게이지 + 성장률 슬라이더로 다음 달 예측이 실시간 갱신되는 인터랙티브 위젯</figcaption></figure>
+
 **실습 3. 이상치·헬스 하이라이트**
 
 ```
@@ -96,6 +98,8 @@ Top 고객사 막대를 클릭하면 그 고객사의 월별 상세가 아래에
 ### Publish 및 공유
 
 앱 상단의 **Publish · 공유 아이콘 · Version 관리** 로 "만든 것을 실제로 배포"하는 단계까지 완결합니다.
+
+<figure><img src="images/apps-publish-share.png" alt="Apps Publish 버튼"><figcaption>Publish 버튼 — 현재 버전을 공유 링크로 방문자에게 공개, Share로 접근 권한 관리</figcaption></figure>
 
 > **정리:** Quick App은 채팅 한 줄로 인터랙티브 도구를 만들고, 수정하고, 공유하는 경험을 줍니다. STEP 3(공유용 정적 파일)와 함께 쓰면 "같은 데이터로 상황에 맞는 결과물을 골라 만든다"는 Quick의 강점을 완성할 수 있습니다.
 
