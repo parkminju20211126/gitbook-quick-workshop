@@ -104,4 +104,28 @@ Quick이 [계정/사람]에 대해 뭘 알고 있어?
 
 ---
 
+## 5-5. 백그라운드 태스크 병렬 수행
+
+복잡한 작업을 프롬프트 하나에 통째로 던지면 Quick이 순차 실행하지만, **"백그라운드 태스크 여러 개로 나눠서 병렬 수행"** 이라는 문구를 명시하면 Quick이 자동으로 서브태스크를 쪼개서 동시에 돌립니다. 워크샵에서 만드는 리포트·대시보드·다중 소스 조회처럼 부품이 여러 개일 때 특히 유용합니다.
+
+**써보기:**
+
+```
+아래 작업을 백그라운드 태스크 여러 개로 나눠서 병렬 수행해줘.
+1) ./research-folder/ 로 branded-report Skill로 임원 보고서 생성
+2) ./call-transcripts/discovery-acme-corp.txt 를 qualify-lead Skill로 평가
+3) ./customer-usage.csv 로 insight-dashboard 대시보드 생성
+완료되면 각각의 결과 파일 경로를 알려줘.
+```
+
+→ 세 작업이 동시에 시작되어 순차 실행보다 훨씬 빠르게 끝납니다. 진행 상황은 오른쪽 위 **Activity Feed** 에서 각각 확인할 수 있고, 그 사이에 다른 채팅도 계속 이어갈 수 있습니다.
+
+**동시 실행 개수 조정:**
+
+**Settings → Customization → Performance → Max parallel tasks** (기본 50) 에서 조절 가능합니다.
+
+> **Tip:** 개별 프롬프트 하나만으로도 무거운 작업(예: ops-report처럼 여러 CSV·MD를 취합하는 리포트)은 이 지시어를 붙이는 것만으로 눈에 띄게 빨라집니다. Quick에게 맡겨두고 다른 일을 진행하세요.
+
+---
+
 > **다음:** [STEP 6. 운영보고서 자동 생성 →](step-7-ops-report.md)
